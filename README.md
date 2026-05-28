@@ -93,8 +93,6 @@ Kernel size = (3,3,3)
 
 ![](images/slide8_img3.png)
 
-
-# (2+1)D CNN
 Also, the spatiotemporal filters are factorized in (2+1)D CNN for the optimization, which reduces testing and training error. So, we can say (2+1)D CNN is much better than 3D CNN in case of performance.
 
 ![](images/slide9_img4.png)
