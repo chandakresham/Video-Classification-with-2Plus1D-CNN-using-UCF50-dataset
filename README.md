@@ -107,14 +107,11 @@ Dataset: I have used UCF50 dataset in my implementation which contains 50 classe
  X shape = (1381, 10, 64, 64, 3) and Y shape = (1381,)</br></br>
  I have splitted the dataset into 80% training, 10% validation and 10% testing datasets.
 
-
-# Implementation of VIDEO CLASSIFICATION USING (2+1)D CNN
 Model architecture:
 
 ![](images/slide11_img5.png)
 
 
-# Implementation of VIDEO CLASSIFICATION USING (2+1)D CNN
 Results:
 1)   Plotting accuracy and loss
 
@@ -127,12 +124,11 @@ Test Acc. = 96.40%
 Test Loss = 11.30%
 
 
-# Implementation of VIDEO CLASSIFICATION USING (2+1)D CNN
+
 2)  Plotting confusion matrix
 
 ![](images/slide13_img7.png)
 
-# Implementation of VIDEO CLASSIFICATION USING (2+1)D CNN
 3) Calculating Precision and Recall for each class
 
 4)  I have also saved the last 24 predicted videos captioned with predicted classes.
@@ -140,7 +136,6 @@ Test Loss = 11.30%
 ![](images/slide14_img8.png)
 
 ![](images/slide14_img9.png)
-
 
 # Conclusion
 In conclusion, we can say that (2+1)D CNN provide an efficient method of video classification which optimizes training and testing errors.
