@@ -101,11 +101,10 @@ Also, the spatiotemporal filters are factorized in (2+1)D CNN for the optimizati
 
 
 # Implementation of VIDEO CLASSIFICATION USING (2+1)D CNN
-Dataset: I have used UCF50 dataset in my implementation which contains 50 classes. UCF50 is an action recognition data set with 50 action categories, consisting of realistic videos taken from youtube. This data set is an extension of YouTube Action data set (UCF11) which has 11 action categories.
-I have considered 10 classes from the above dataset. They are Baseball Pitch, Basketball, Bench Press, Biking, Billiards, Breast Stroke, Clean and Jerk, Diving , Drumming and Fencing.
-First, I have load the dataset. I have kept the maximum no. of frames to be extracted as 10 from each video.
-X shape = (1381, 10, 64, 64, 3)
-      Y shape = (1381,)
+Dataset: I have used UCF50 dataset in my implementation which contains 50 classes. UCF50 is an action recognition data set with 50 action categories, consisting of realistic videos taken from youtube. This data set is an extension of YouTube Action data set (UCF11) which has 11 action categories.</br></br>
+I have considered 10 classes from the above dataset. They are Baseball Pitch, Basketball, Bench Press, Biking, Billiards, Breast Stroke, Clean and Jerk, Diving , Drumming and Fencing.</br>
+First, I have load the dataset. I have kept the maximum no. of frames to be extracted as 10 from each video.</br>
+X shape = (1381, 10, 64, 64, 3) and Y shape = (1381,)</br></br>
 I have splitted the dataset into 80% training, 10% validation and 10% testing datasets.
 
 
